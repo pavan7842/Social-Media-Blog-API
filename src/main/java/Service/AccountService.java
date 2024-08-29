@@ -5,7 +5,7 @@ import Model.Account;
 
 public class AccountService {
    
-    private AccountDAO accountDAO;
+    private final AccountDAO accountDAO;
 
     public AccountService() {
         this.accountDAO = new AccountDAO();
